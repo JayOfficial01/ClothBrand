@@ -1,0 +1,43 @@
+/* ArticleCard.css */
+.article-card {
+    background-color: #e5e5e5;
+    width: 282px;
+    height: 370px;
+    border-radius: 12px;
+  }
+  
+  .article-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  /* .card-content div {
+    flex: 1;
+  } */
+  
+  .card-content h3 {
+    font-size: 16px;
+    color: #3C4242;
+    font-weight: 600;
+  }
+  
+  .card-content label {
+    font-size: 14px;
+    color: #807D7E;
+    font-weight: 500;
+  }
+  
+  .card-content button {
+    font-size: 14px;
+    color: #3C4242;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: none;
+  }
+  

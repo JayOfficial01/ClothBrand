@@ -15,5 +15,5 @@ export const menus = [
     menuText: "Kids",
     url: "#",
   },
-  /////
+  
 ];

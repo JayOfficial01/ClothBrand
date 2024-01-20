@@ -5,14 +5,16 @@ import { Home } from "./pages";
 
 import THEME from "./styles/theme";
 import { GlobalStyle } from "./styles/globalStyles";
+import WomenSection from "../src/pages/WomenSection/WomenSection"
 
 function App() {
   return (
     <ThemeProvider theme={THEME}>
       <GlobalStyle />
       <Navbar />
-      <Home />
-      <Footer />
+      {/* <Home /> */}
+      <WomenSection/>
+      {/* <Footer /> */}
     </ThemeProvider>
   );
 }
