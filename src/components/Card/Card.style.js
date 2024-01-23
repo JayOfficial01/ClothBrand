@@ -107,3 +107,53 @@ export const ProductCardStyle = styled.figure`
     }
   }
 `;
+
+export const CategoryCardStyle = styled.figure`
+  position: relative;
+
+  .wrapper-heading {
+    position: absolute;
+    margin: 5.2rem 2.3rem;
+
+    .image-heading {
+      font-size: 28px;
+      font-weight: 600;
+      padding-bottom: 2rem;
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        font-size: 20px;
+      }
+    }
+    .image-text {
+      font-size: 14px;
+      padding-bottom: 1rem;
+      text-align: left;
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        font-size: 9px;
+      }
+    }
+    .image-subheading {
+      font-size: 18px;
+      padding-bottom: 1rem;
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        font-size: 10px;
+      }
+    }
+    .arrow-icon {
+      font-size: 3rem;
+      padding: 2rem 4rem;
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        font-size: 2rem;
+      }
+    }
+
+    button {
+      border: 0.1rem solid black;
+      color: black;
+      background-color: transparent;
+      padding: 1rem 2rem;
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+`;
