@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Carousal, ProductBanner } from "../../components";
+import { Card, Carousal, ProductBanner, SavingZone } from "../../components";
 import { HomeStyle, HotItemWrapperStyle } from "./Home.style";
 
 const HotItemWrapper = () => {
@@ -33,6 +33,7 @@ function Home() {
       <HotItemWrapper />
 
       <ProductBanner isRightActive />
+      <SavingZone />
     </HomeStyle>
   );
 }

@@ -107,3 +107,68 @@ export const ProductCardStyle = styled.figure`
     }
   }
 `;
+
+export const CategoryCardStyle = styled.figure`
+  position: relative;
+
+  .wrapper-heading {
+    position: absolute;
+    margin: 5.2rem 2.3rem;
+
+    .btn-stock {
+      color: white;
+      border: 2px solid black;
+      background-color: black;
+      margin-bottom: 1rem;
+    }
+
+    .image-heading {
+      font-size: 2.8rem;
+      font-weight: 600;
+      padding-bottom: 2rem;
+
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        font-size: 2rem;
+      }
+    }
+
+    .image-text {
+      font-size: 1.4rem;
+      padding-bottom: 1rem;
+      text-align: left;
+
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        font-size: 1rem;
+      }
+    }
+
+    .image-subheading {
+      font-size: 1.8rem;
+      padding-bottom: 1rem;
+
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        font-size: 1rem;
+      }
+    }
+
+    .arrow-icon {
+      font-size: 3rem;
+      padding: 2rem 4rem;
+
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        font-size: 2rem;
+      }
+    }
+
+    button {
+      border: 0.1rem solid black;
+      color: black;
+      background-color: transparent;
+      padding: 1rem 2rem;
+
+      @media (max-width: ${({ theme }) => theme.breakPoints.mediumDevices}) {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+`;
