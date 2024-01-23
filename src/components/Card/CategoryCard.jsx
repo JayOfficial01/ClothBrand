@@ -16,7 +16,7 @@ function CategoryCard(props) {
     <CategoryCardStyle className={className}>
       <img src={img} alt="" />
       <div className="wrapper-heading">
-        {limitedStock && <button>Limited Stock</button>}
+        {limitedStock && <button className="btn-stock">Limited Stock</button>}
         <h2 className="image-heading">
           {heading1}
           <br />
